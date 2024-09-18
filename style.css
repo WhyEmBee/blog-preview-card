@@ -1,0 +1,70 @@
+*{
+    font-family: "Figtree", sans-serif;
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    background-color: hsl(47, 88%, 63%); 
+    padding: 5rem 1rem;
+    
+}
+
+.container{
+    max-width: 450px;
+    margin-inline: auto;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 1rem;
+    box-shadow: 8px 8px 0px;
+}
+.container div:first-child img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.container div:nth-child(2) h2{
+    background-color: hsl(47, 88%, 63%) ;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 800;
+    padding: 8px 9px;
+    margin: 15px 5px;
+    border-radius: 3px;
+}
+
+.container div:nth-child(2) p.published{
+     font-size: 15px;
+     margin-bottom: 1rem;
+     font-weight: 500;
+     color: hsl(0, 0%, 7%);
+    
+}
+.container div:nth-child(2) h1{
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.container div:nth-child(2) h1:hover{
+    color:hsl(47, 88%, 63%) ;
+    cursor: pointer;
+}
+
+.container div:nth-child(2) p{
+    font-size: 15px;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    color:hsl(0, 0%, 42%);
+   
+}
+
+.container div:nth-child(2) ul{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 800;
+}
